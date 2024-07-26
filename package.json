@@ -5,10 +5,11 @@
     "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "next": "^14.2.5",
+    "plotly.js-dist": "2.33.0",
     "react": "latest",
     "react-dom": "latest",
-    "typescript": "latest",
-    "plotly.js-dist": "2.33.0"
+    "typescript": "latest"
   },
   "description": "https://github.com/mui/mui-x/blob/v6.19.8/docs/data/charts/scatter-demo/MultipleYAxesScatterChart.tsx",
   "devDependencies": {
@@ -16,9 +17,8 @@
   },
   "main": "index.tsx",
   "scripts": {
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   }
 }
